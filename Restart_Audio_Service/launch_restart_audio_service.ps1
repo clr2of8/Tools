@@ -1,0 +1,1 @@
+ Start-Process -Verb RunAs powershell -ArgumentList "-nop -exec bypass -File $env:USERPROFILE\Documents\code\Tools\Restart_Audio_Service\restart_audio_service.ps1"
